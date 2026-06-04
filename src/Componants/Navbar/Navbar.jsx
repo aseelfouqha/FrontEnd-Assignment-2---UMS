@@ -5,7 +5,7 @@ export default function Navbar(){
   return (
     <nav>
       <Link to ='/'>Home</Link>
-      <Link to ='./Users'>Users</Link>
+      <Link to ='./customers'>Customers</Link>
 
     </nav>
   )
