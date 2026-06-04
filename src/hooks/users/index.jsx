@@ -2,7 +2,7 @@ import { useQuery } from "@tanstack/react-query";
 import React from "react";
 import axios from 'axios'
 
-export default function Users(){
+export default function Customers(){
 
     const getUsers = async ()=>{
       const response = await axios.get('http://ums12.runasp.net/api/users');
