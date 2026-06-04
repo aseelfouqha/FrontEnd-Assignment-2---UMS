@@ -9,7 +9,7 @@ export default function Customers(){
       return response.data;
 
     }
-
+/*
     const {data, isError, isLoading} = useQuery({
       queryKey:['users'],
       queryFn:getUsers,
@@ -28,4 +28,5 @@ export default function Customers(){
       </div>)}
     </section>
   )
+    */
 }
